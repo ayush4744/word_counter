@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  width: 100%;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+textarea {
+  width: 95%;
+  height: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  resize: vertical;
+  margin-bottom: 10px;
+}
+
+#word-counter {
+  font-size: 18px;
+  text-align: left;
+}
